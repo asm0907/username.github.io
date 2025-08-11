@@ -1,10 +1,10 @@
 body {
-    background-color: #ffffff;
-    width: 1200px;
-    font-family: serif;
-    margin: 0;
-    padding: 0;
-    margin: 0 auto ;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1200px;   /* 大きい画面では中央に1200px */
+  font-family: serif;
+  margin: 0 auto;      /* 中央寄せ */
+  padding: 0;
 }
 #top div{
     float: left;
@@ -58,9 +58,10 @@ main {
     /* border-radius: 8px; */
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
 }
-main img{
-    width: 1200px;
-    
+main img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 #about img{
     width: 590px;
