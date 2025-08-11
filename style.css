@@ -87,6 +87,7 @@ ul li {
     padding: 5px 0;
 }
 #menuphoto{
+    width:1200px;
     overflow:hidden;
 }
 #menu figure{
