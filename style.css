@@ -23,17 +23,10 @@ body {
    width: 110px;
     margin-top: 120px;
 }
-/* 画像がスマホ幅に収まるようにする */
-img {
+#logo img {
   max-width: 100%;
   height: auto;
   display: block;
-}
-
-/* ロゴ専用調整 */
-#logo img {
-  max-width: 80%; /* スマホで少し余白ができるように */
-  margin: 0 auto; /* 中央寄せ */
 }
 
 
