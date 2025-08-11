@@ -1,10 +1,10 @@
 body {
-  background-color: #ffffff;
-  width: 100%;
-  max-width: 1200px;   /* 大きい画面では中央に1200px */
-  font-family: serif;
-  margin: 0 auto;      /* 中央寄せ */
-  padding: 0;
+    background-color: #ffffff;
+    width: 1200px;
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto ;
 }
 #top div{
     float: left;
@@ -23,13 +23,6 @@ body {
    width: 110px;
     margin-top: 120px;
 }
-#logo img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-
 
 header {
     /* padding: 15px 0; */
@@ -52,24 +45,20 @@ nav ul li a {
 }
 
 main {
-    width:100%;
-  max-width: 1200px;
+    max-width: 1200px;
     /* margin: 20px auto; */
     /* padding: 20px; */
     /* border-radius: 8px; */
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
 }
-main img {
-  width: 100%;
-  height: auto;
-  display: block;
+main img{
+    width: 1200px;
+    
 }
 #about img{
     width: 590px;
     height:500px;
 }
-
-
 
 h1, h2 {
     text-align: center;
