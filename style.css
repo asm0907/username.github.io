@@ -62,6 +62,7 @@ main img{
 
 #about{
     width: 100%;
+    margin: 0 auto;
     
 }
 
@@ -86,6 +87,9 @@ ul {
 ul li {
     font-size: 32px;
     padding: 5px 0;
+}
+#menu{
+    margin: 0 auto;
 }
 #menuphoto{
     width:100%;
