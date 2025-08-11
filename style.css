@@ -23,6 +23,12 @@ body {
    width: 110px;
     margin-top: 120px;
 }
+#logo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 header {
     /* padding: 15px 0; */
