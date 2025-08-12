@@ -157,4 +157,6 @@ footer a img{
     width: 278px;
 }
 /* ---- スマホだけの安全オーバーライド ---- */
-@media (max-width: 600px) 
+@media (max-width: 600px) {
+  .hero { max-width: 100%; width: auto; height: auto; }
+}
