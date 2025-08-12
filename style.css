@@ -156,3 +156,30 @@ footer a img{
     margin-bottom: 20px;
     width: 278px;
 }
+/* ---- スマホだけの安全オーバーライド ---- */
+@media (max-width: 600px) {
+
+  /* 枠はそのまま、表示だけ画面幅にフィット */
+  header, main, footer {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* “main内の幅1200px指定”を上書きしてはみ出し防止 */
+  main img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+  }
+
+  /* ロゴがデカすぎる対策（他の画像は触らない） */
+  #logo img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
